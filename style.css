@@ -1,0 +1,41 @@
+.container {
+    background: rgb(240, 209, 151);
+    width: 1260px;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    display: flex;
+    background: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    weight: 100px;
+    margin: 8px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding: 10px;
+  }
+
+  .box.Logo {
+      color: red;
+      font-size: 60px;
+      padding: 20px;
+
+
+  }
+  .box.Four {
+      margin-left: auto;
+  }
+  
+  .box.Three {
+      margin-right: auto;
+  }
